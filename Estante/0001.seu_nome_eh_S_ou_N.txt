@@ -1,0 +1,8 @@
+﻿Sub seu_nome_eh_S_ou_N()
+    'caixa de diálogo, perguntando se o nome é o username, com dois botões (sim/não)
+    Ans = MsgBox("Seu nome é " & Application.UserName & "?", vbYesNo)
+    'se o botão não for escolhido retorna menssagem.
+    If Ans = vbNo Then MsgBox "Não se preocupe."
+    'se o botão sim for escolhido retorna menssagem.
+    If Ans = vbYes Then MsgBox "Eu devo ser, adivinho!"
+End Sub
